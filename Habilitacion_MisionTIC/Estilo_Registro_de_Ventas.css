@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 24px;
+  
+}
+body {
+  background: silver
+}
+.form-register {
+  image-orientation: center ;
+  width: 1000px;
+  padding: 50px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  font-family: 'calibri';
+  color: grey;
+  box-shadow: 7px 13px 37px #000;
+  background: linear-gradient( black, gray);
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  
+}
+
+.controls {
+  width: 100%;
+  padding: 10px;
+  border-radius: 24px;
+  border: 1px solid black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+}
+
+.form-register p {
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  
+}
+
+.form-register a {
+  color: black;
+  text-decoration: none;
+  border-radius: 24;
+  text-emphasis-color: black ;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+
+}
+
+.form-register .botons {
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid white;
+  padding: 14px 10px;
+  color: black;
+  border-radius: 50px;
+  font-size: 20px;
+  border-color: #2ecc71;
+  cursor: pointer;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+table{
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  color: #000;
+  
+}
+
+th, td{
+  padding: 20px;
+}
+
+thead{
+  background-color: white;
+  border-bottom: solid 1px black;
+  color: black;
+  border-top: solid 1px black;
+}
+
+tr:nth-child(even){
+  background-color:white;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+}
